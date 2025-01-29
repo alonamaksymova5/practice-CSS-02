@@ -10,6 +10,21 @@ a {
   text-decoration: none;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+/* -------HEADER------- */
+
 .header-logo {
   font-weight: 700;
   font-size: 18px;
@@ -36,8 +51,7 @@ a {
   color: #fd9222;
 }
 
-.hero {
-}
+/* -------HERO------- */
 
 .hero-title {
   font-weight: 500;
@@ -51,6 +65,7 @@ a {
   font-weight: 600;
   font-size: 14px;
   color: #fff;
+  cursor: pointer;
 }
 
 .hero-btn-anchor {
@@ -65,4 +80,167 @@ a {
   line-height: 1.29;
   letter-spacing: -0.03em;
   color: #fff;
+}
+
+/* -------FEATURES------- */
+
+.features {
+  background: #1e1823;
+}
+
+.features-list {
+}
+
+.features-item {
+}
+
+.features-item-title {
+  font-weight: 600;
+  font-size: 18px;
+  color: #fff;
+}
+
+.features-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* -------TASTE------- */
+
+.taste {
+}
+
+.taste-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.taste-title .accent {
+  color: #fd9222;
+}
+
+.taste-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #111;
+}
+
+.taste-list {
+}
+
+.taste-item {
+}
+
+.taste-image {
+}
+
+.taste-subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* -------MADE------- */
+
+.made {
+}
+
+.made-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.made-title .accent {
+  color: #fd9222;
+}
+
+.made-image {
+}
+
+.made-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #111;
+}
+
+.made-list {
+}
+
+.made-item {
+}
+
+.made-text {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  color: #111;
+}
+
+/* -------PRODUCTS------- */
+
+.products {
+}
+
+.product-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.product-title .accent {
+  color: #fd9222;
+}
+
+.product-list {
+}
+
+.product-item {
+}
+
+.product-image {
+}
+
+.product-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+.product-text {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: -0.02em;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.product-btn {
+  font-weight: 600;
+  font-size: 14px;
+  color: #111;
 }
