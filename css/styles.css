@@ -23,6 +23,20 @@ a {
   overflow: hidden;
 }
 
+.title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.16;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #111;
+}
+
+.title .accent {
+  color: #fd9222;
+}
+
 /* -------HEADER------- */
 
 .header-logo {
@@ -113,17 +127,6 @@ a {
 }
 
 .taste-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #111;
-}
-
-.taste-title .accent {
-  color: #fd9222;
 }
 
 .taste-text {
@@ -159,17 +162,6 @@ a {
 }
 
 .made-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #111;
-}
-
-.made-title .accent {
-  color: #fd9222;
 }
 
 .made-image {
@@ -201,17 +193,6 @@ a {
 }
 
 .product-title {
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 1.16;
-  letter-spacing: -0.03em;
-  text-transform: uppercase;
-  text-align: center;
-  color: #111;
-}
-
-.product-title .accent {
-  color: #fd9222;
 }
 
 .product-list {
@@ -243,4 +224,136 @@ a {
   font-weight: 600;
   font-size: 14px;
   color: #111;
+}
+
+/* -------SELLERS------- */
+
+.sellers {
+}
+
+.sellers-title {
+}
+
+.sellers-list {
+}
+
+.sellers-item {
+}
+
+.sellers-image {
+}
+
+.sellers-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #111;
+}
+
+/* -------LOVED------- */
+
+.loved {
+}
+
+.loved-title {
+}
+
+.loved-list {
+}
+
+.loved-item {
+}
+
+.loved-image {
+}
+
+.loved-subtitle {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+  color: #111;
+}
+
+.loved-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: rgba(17, 17, 17, 0.7);
+}
+
+.loved-btn {
+  font-weight: 600;
+  font-size: 18px;
+  color: #111;
+}
+
+/* -------FOOTER------- */
+
+.footer {
+  background-color: #1e1823;
+}
+
+.footer-text {
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1.21;
+  letter-spacing: -0.02em;
+  color: #fff;
+}
+
+.footer-text .accent {
+  color: #fd9222;
+}
+
+.footer-subtitle {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-soc-list {
+}
+
+.footer-soc-item {
+}
+
+.footer-soc-link {
+}
+
+.footer-contacts {
+}
+
+.footer-contacts-list {
+}
+
+.footer-contacts-item {
+}
+
+.footer-contacts-link {
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-align: center;
+  color: #fff;
+}
+
+.footer-menu-list {
+}
+
+.footer-menu-item {
+}
+
+.footer-menu-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: -0.02em;
+  color: #fff;
 }
